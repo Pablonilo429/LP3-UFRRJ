@@ -1,3 +1,5 @@
+package Exercicio1;
+
 public class Cruzeiro extends Navio {
     private int maxpassageiros; //Atributo referente ao numero maximo de passageiros
 

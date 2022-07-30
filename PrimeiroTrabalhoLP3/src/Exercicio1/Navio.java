@@ -1,3 +1,5 @@
+package Exercicio1;
+
 public class Navio {
     public String nome;    //Atributo relacionado ao nome do navio
     private String ano;     //Atributo relacionado ao ano de fabricacao do navio

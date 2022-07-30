@@ -1,4 +1,6 @@
-public class Cargueiro extends Navio{
+package Exercicio1;
+
+public class Cargueiro extends Navio {
     int capacidade; //Capacidade em toneladas
 
     public Cargueiro(String nome, String ano, int capacidade) {
@@ -7,6 +9,6 @@ public class Cargueiro extends Navio{
     }
 
     public String toString(){
-        return "Nome do navio: "+this.nome+"\n"+"Capaciadade do Navio: "+this.capacidade+"t";
+        return "Nome do navio: "+this.nome+"\n"+"Capaciadade do Exercicio1.Navio: "+this.capacidade+"t";
     }
 }
