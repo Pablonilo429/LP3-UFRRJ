@@ -36,6 +36,21 @@ public class TesteRetangulo {
             System.out.printf("O perimetro do retangulo %d: %.1f\n",(i+1),retangulo[i].perimetro());
             System.out.printf("A area do retangulo %d: %.1f\n",(i+1),retangulo[i].area());
         }
+        
+        /*Outra opção setando os valores diretamente no codigo
+        
+        Retangulo R1 = new Retangulo();
+		R1.setComprimento(5.3);
+		R1.setLargura(2);
+		
+		Retangulo R2 = new Retangulo();
+		R2.setComprimento(9.5);
+		R2.setLargura(5.2);
+		
+		System.out.println("\nPerímetro do Retangulo 1: " + R1.Perimetro() + "\nÁrea do Retangulo 1: " + R1.Area());
+		System.out.println("\nPerímetro do Retangulo 2: " + R2.Perimetro() + "\nÁrea do Retangulo 2: " + R2.Area());
+        */
+        
     }
 }
 
