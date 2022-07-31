@@ -1,6 +1,8 @@
 package Exercicio1;
 
 
+import java.util.ArrayList;
+
 public class TesteNavio {
     public static void main(String[] args){
         Navio[] embarcacoes = new Navio[3];
@@ -12,8 +14,10 @@ public class TesteNavio {
        for(int i = 0; i < 3; i++){
            System.out.println(embarcacoes[i]); //Percorre o vetor e printa os determinados atributos
        }
-        
-       /*ArrayList<Navio> lista = new ArrayList<>();
+
+       //Duas formas para o mesmo problema
+
+       ArrayList<Navio> lista = new ArrayList<>();
 		
 		//NAVIO
 		
@@ -34,7 +38,7 @@ public class TesteNavio {
 		//IMPRIMINDO NA TELA...
 		
 		System.out.print("\n" + lista.toString()); //Sairá no formato de lista
-        */
+
 
     }
 }
