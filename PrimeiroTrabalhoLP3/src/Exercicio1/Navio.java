@@ -28,6 +28,6 @@ public class Navio {
     }
 
     public String toString() {
-        return "Nome do navio:"+ this.nome+"\n"+"Ano de fabricacao:"+this.ano;
+        return "Nome do navio:"+ getNome()+"\n"+"Ano de fabricacao:"+getAno();
     }
 }

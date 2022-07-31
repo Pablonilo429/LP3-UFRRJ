@@ -8,7 +8,15 @@ public class Cargueiro extends Navio {
         this.capacidade = capacidade;
     }
 
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(int capacidade) {
+        this.capacidade = capacidade;
+    }
+
     public String toString(){
-        return "Nome do navio: "+this.nome+"\n"+"Capaciadade do Exercicio1.Navio: "+this.capacidade+"t";
+        return "Nome do cargueiro: "+getNome()+"\n"+"Capaciadade do cargueiro: "+getCapacidade()+"t";
     }
 }

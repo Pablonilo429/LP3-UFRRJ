@@ -25,10 +25,10 @@ public class Retangulo {
     }
 
     public double perimetro(){
-        return (largura*comprimento)*2;
+        return (getLargura()*getComprimento())*2;
     }
 
     public double area(){
-        return (largura*comprimento);
+        return (getLargura()*getComprimento());
     }
 }
