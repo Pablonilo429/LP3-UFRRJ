@@ -9,8 +9,6 @@ public class Navio {
         this.ano = ano;
     }
 
-
-
     public String getNome() {
         return nome;
     }
