@@ -34,7 +34,7 @@ public class TesteNavio {
 		//IMPRIMINDO NA TELA...
 		
 		System.out.print("\n" + lista.toString()); //Sairá no formato de lista
-        /*
+        */
 
     }
 }
