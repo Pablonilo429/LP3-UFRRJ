@@ -7,7 +7,7 @@ public class TesteRetangulo {
         Retangulo[] retangulo = new Retangulo[2];
         Scanner input = new Scanner(System.in);
 
-        /*Opcao com mais linhas de codigo
+        //Opcao com mais linhas de codigo
 
         Retangulo retangulo1 = new Retangulo;
         Retangulo retangulo2 = new Retangulo;
@@ -23,7 +23,7 @@ public class TesteRetangulo {
         retangulo2.setLargura(Double.parseDouble(input.nextLine()));
         System.out.printf("O perimetro do retangulo1: %.1f\n",retangulo2.perimetro());
         System.out.printf("A area do retangulo1: %.1f\n",retangulo2.area());
-        */
+        
 
         //Opcao com menos codigo
 
