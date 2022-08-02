@@ -16,7 +16,7 @@ public class Retangulo {
         this.largura = largura;
     }
     public double perimetro(){
-        return (this.largura*this.comprimento)*2;
+        return (this.largura+this.comprimento)*2;
     }
     public double area(){
         return (this.largura*this.comprimento);
