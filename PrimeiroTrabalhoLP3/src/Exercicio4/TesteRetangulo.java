@@ -9,8 +9,8 @@ public class TesteRetangulo {
 
         //Opcao com mais linhas de codigo
 
-        Retangulo retangulo1 = new Retangulo;
-        Retangulo retangulo2 = new Retangulo;
+        Retangulo retangulo1 = new Retangulo();
+        Retangulo retangulo2 = new Retangulo();
         System.out.printf("Entre com o comprimento do retangulo 1\n");
         retangulo1.setComprimento(Double.parseDouble(input.nextLine()));
         System.out.printf("Entre com a largura do retangulo 1\n");
