@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Registrar {
+public class Registro {
 
     static HashMap<Integer, ArrayList<String>> alunos = new HashMap <Integer, ArrayList<String>>();
 
